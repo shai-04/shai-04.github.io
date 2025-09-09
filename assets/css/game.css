@@ -29,6 +29,7 @@ body {
 
 .game_canvas > a {
     text-decoration: none;
+    border: 2px solid transparent;
     background-color: #fff;
     color: #000;
     font-family: Noir, sans-serif;
@@ -37,6 +38,15 @@ body {
     margin-top: 25px;
     padding: 15px;
     border-radius: 15px;
+    /* transition-property: border, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out; */
+}
+
+.game_canvas > a:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
 }
 
 .game_canvas > a > i {
